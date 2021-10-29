@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.10)  29 OCT 2021 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.10)  29 OCT 2021 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1305,7 +1305,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
  [5
 
 ]
-<Media/pictures/scopus.png, id=116, 881.54344pt x 526.21594pt>
+<Media/pictures/scopus.png, id=119, 881.54344pt x 526.21594pt>
 File: Media/pictures/scopus.png Graphic file (type png)
 <use Media/pictures/scopus.png>
 Package pdftex.def Info: Media/pictures/scopus.png  used on input line 115.
@@ -1321,7 +1321,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 [6
 
  </home/senai/Documentos/beamer_2/Media/pictures/scopus.png>]
-<Media/pictures/ieee.png, id=127, 1170.3725pt x 514.92375pt>
+<Media/pictures/ieee.png, id=130, 1170.3725pt x 514.92375pt>
 File: Media/pictures/ieee.png Graphic file (type png)
 <use Media/pictures/ieee.png>
 Package pdftex.def Info: Media/pictures/ieee.png  used on input line 126.
@@ -1349,7 +1349,7 @@ File: Template/bullet-blue.png Graphic file (type png)
 <use Template/bullet-blue.png>
 Package pdftex.def Info: Template/bullet-blue.png  used on input line 152.
 (pdftex.def)             Requested size: 4.88542pt x 4.8889pt.
-<Media/pictures/time-and-precision.jpeg, id=139, 2464.20625pt x 1098.1025pt>
+<Media/pictures/time-and-precision.jpeg, id=142, 2464.20625pt x 1098.1025pt>
 File: Media/pictures/time-and-precision.jpeg Graphic file (type jpg)
 <use Media/pictures/time-and-precision.jpeg>
 Package pdftex.def Info: Media/pictures/time-and-precision.jpeg  used on input line 152.
@@ -1365,7 +1365,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 [8
 
  </home/senai/Documentos/beamer_2/Media/pictures/time-and-precision.jpeg>]) (/home/senai/Documentos/beamer_2/Sections/02-bibliometria.tex
-<Media/pictures/biblioeconomia.png, id=149, 284.39583pt x 182.01334pt>
+<Media/pictures/biblioeconomia.png, id=152, 284.39583pt x 182.01334pt>
 File: Media/pictures/biblioeconomia.png Graphic file (type png)
 <use Media/pictures/biblioeconomia.png>
 Package pdftex.def Info: Media/pictures/biblioeconomia.png  used on input line 13.
@@ -1409,7 +1409,7 @@ File: Template/bullet-blue.png Graphic file (type png)
 <use Template/bullet-blue.png>
 Package pdftex.def Info: Template/bullet-blue.png  used on input line 44.
 (pdftex.def)             Requested size: 4.88542pt x 4.8889pt.
-<Media/pictures/books-banner.jpeg, id=163, 475.7775pt x 83.31125pt>
+<Media/pictures/books-banner.jpeg, id=166, 475.7775pt x 83.31125pt>
 File: Media/pictures/books-banner.jpeg Graphic file (type jpg)
 <use Media/pictures/books-banner.jpeg>
 Package pdftex.def Info: Media/pictures/books-banner.jpeg  used on input line 44.
@@ -1421,7 +1421,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
  [10
 
  </home/senai/Documentos/beamer_2/Media/pictures/books-banner.jpeg>]
-<Media/pictures/Samuel_Clemente_Bradford.jpg, id=176, 158.5925pt x 158.5925pt>
+<Media/pictures/Samuel_Clemente_Bradford.jpg, id=179, 158.5925pt x 158.5925pt>
 File: Media/pictures/Samuel_Clemente_Bradford.jpg Graphic file (type jpg)
 <use Media/pictures/Samuel_Clemente_Bradford.jpg>
 Package pdftex.def Info: Media/pictures/Samuel_Clemente_Bradford.jpg  used on input line 78.
@@ -1431,7 +1431,7 @@ Overfull \hbox (10.05942pt too wide) in paragraph at lines 78--78
  [] 
  []
 
-<Media/pictures/Alfredo-Lotka.jpeg, id=177, 474.77374pt x 474.77374pt>
+<Media/pictures/Alfredo-Lotka.jpeg, id=180, 474.77374pt x 474.77374pt>
 File: Media/pictures/Alfredo-Lotka.jpeg Graphic file (type jpg)
 <use Media/pictures/Alfredo-Lotka.jpeg>
 Package pdftex.def Info: Media/pictures/Alfredo-Lotka.jpeg  used on input line 78.
@@ -1441,7 +1441,7 @@ Overfull \hbox (10.05942pt too wide) in paragraph at lines 78--78
  [] 
  []
 
-<Media/pictures/George-Zipf.jpeg, id=178, 195.73125pt x 258.9675pt>
+<Media/pictures/George-Zipf.jpeg, id=181, 195.73125pt x 258.9675pt>
 File: Media/pictures/George-Zipf.jpeg Graphic file (type jpg)
 <use Media/pictures/George-Zipf.jpeg>
 Package pdftex.def Info: Media/pictures/George-Zipf.jpeg  used on input line 78.
@@ -1458,7 +1458,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 [11
 
  </home/senai/Documentos/beamer_2/Media/pictures/Samuel_Clemente_Bradford.jpg> </home/senai/Documentos/beamer_2/Media/pictures/Alfredo-Lotka.jpeg> </home/senai/Documentos/beamer_2/Media/pictures/George-Zipf.jpeg>]
-<Media/pictures/bradford-2.png, id=186, 311.1625pt x 306.14375pt>
+<Media/pictures/bradford-2.png, id=190, 311.1625pt x 306.14375pt>
 File: Media/pictures/bradford-2.png Graphic file (type png)
 <use Media/pictures/bradford-2.png>
 Package pdftex.def Info: Media/pictures/bradford-2.png  used on input line 119.
@@ -1482,7 +1482,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
  [12
 
  </home/senai/Documentos/beamer_2/Media/pictures/bradford-2.png>]
-<Media/pictures/lotka.jpg, id=199, 388.54839pt x 271.98387pt>
+<Media/pictures/lotka.jpg, id=202, 388.54839pt x 271.98387pt>
 File: Media/pictures/lotka.jpg Graphic file (type jpg)
 <use Media/pictures/lotka.jpg>
 Package pdftex.def Info: Media/pictures/lotka.jpg  used on input line 157.
@@ -1494,7 +1494,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
  [13
 
  </home/senai/Documentos/beamer_2/Media/pictures/lotka.jpg>]
-<Media/pictures/Figura-1-Lei-de-Zipf-no-Ingles-escrito-dados-do-OANC-Rank-k-versus-frequencia-de.png, id=211, 410.53375pt x 322.20375pt>
+<Media/pictures/Figura-1-Lei-de-Zipf-no-Ingles-escrito-dados-do-OANC-Rank-k-versus-frequencia-de.png, id=214, 410.53375pt x 322.20375pt>
 File: Media/pictures/Figura-1-Lei-de-Zipf-no-Ingles-escrito-dados-do-OANC-Rank-k-versus-frequencia-de.png Graphic file (type png)
 <use Media/pictures/Figura-1-Lei-de-Zipf-no-Ingles-escrito-dados-do-OANC-Rank-k-versus-frequencia-de.png>
 Package pdftex.def Info: Media/pictures/Figura-1-Lei-de-Zipf-no-Ingles-escrito-dados-do-OANC-Rank-k-versus-frequencia-de.png  used on input line 199.
@@ -1514,7 +1514,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
  [14
 
  </home/senai/Documentos/beamer_2/Media/pictures/Figura-1-Lei-de-Zipf-no-Ingles-escrito-dados-do-OANC-Rank-k-versus-frequencia-de.png>]
-<Media/pictures/fi.jpg, id=222, 428.35031pt x 258.9675pt>
+<Media/pictures/fi.jpg, id=225, 428.35031pt x 258.9675pt>
 File: Media/pictures/fi.jpg Graphic file (type jpg)
 <use Media/pictures/fi.jpg>
 Package pdftex.def Info: Media/pictures/fi.jpg  used on input line 215.
@@ -1537,7 +1537,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
  [16
 
 ]) (/home/senai/Documentos/beamer_2/Sections/03-method.tex
-<Media/pictures/revisão bibliogrática Diagram.png, id=240, 1115.16624pt x 808.01875pt>
+<Media/pictures/revisão bibliogrática Diagram.png, id=243, 1115.16624pt x 808.01875pt>
 File: Media/pictures/revisão bibliogrática Diagram.png Graphic file (type png)
 <use Media/pictures/revisão bibliogrática Diagram.png>
 Package pdftex.def Info: Media/pictures/revisão bibliogrática Diagram.png  used on input line 13.
@@ -1587,7 +1587,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
  [19
 
 ]
-<Media/gifs/robotdesinfec0.png, id=266, 642.4pt x 369.38pt>
+<Media/gifs/robotdesinfec0.png, id=269, 642.4pt x 369.38pt>
 File: Media/gifs/robotdesinfec0.png Graphic file (type png)
 <use Media/gifs/robotdesinfec0.png>
 Package pdftex.def Info: Media/gifs/robotdesinfec0.png  used on input line 52.
@@ -1687,7 +1687,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 178--178
 []  []  
  []
 
-<Media/pictures/darwin-op-2.png, id=316, 509.905pt x 791.95876pt>
+<Media/pictures/darwin-op-2.png, id=319, 509.905pt x 791.95876pt>
 File: Media/pictures/darwin-op-2.png Graphic file (type png)
 <use Media/pictures/darwin-op-2.png>
 Package pdftex.def Info: Media/pictures/darwin-op-2.png  used on input line 178.
@@ -1713,7 +1713,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
  [26
 
 ])
-<Template/questionmark8.png, id=334, 513.92pt x 513.92pt>
+<Template/questionmark8.png, id=337, 513.92pt x 513.92pt>
 File: Template/questionmark8.png Graphic file (type png)
 <use Template/questionmark8.png>
 Package pdftex.def Info: Template/questionmark8.png  used on input line 152.
@@ -1749,16 +1749,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  32788 strings out of 481239
  673628 string characters out of 5920377
- 1167014 words of memory out of 5000000
+ 1168063 words of memory out of 5000000
  47170 multiletter control sequences out of 15000+600000
  545499 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,17n,88p,1019b,2118s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on /home/senai/Documentos/beamer_2/presentation.pdf (27 pages, 3282245 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on /home/senai/Documentos/beamer_2/presentation.pdf (27 pages, 3299045 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 402 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
  58 named destinations out of 1000 (max. 500000)
  440 words of extra memory for PDF output out of 10000 (max. 10000000)
 

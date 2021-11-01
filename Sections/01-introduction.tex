@@ -7,12 +7,14 @@
         \!
         \\
         \normalsize
-        M. S. Alshamasin, F. Ionescu, R. T. Al-Kasasbeh
+        M. S. Alshamasin, F. Ionescu, R. T. Al-Kasasbeh\\
+        2009
         
     \end{center}
 \end{frame}
-
-\begin{frame}[c]{Robôs SCARA} 
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Robôs SCARA}
+    \framesubtitle{Selective Compliance Articulated Robot Arm} 
     % \begin{figure}
     %     \includegraphics[width=5cm, height=4cm]{scara.png}
     %     %\caption{.}
@@ -35,10 +37,20 @@
         % $K$ \scriptsize{é a constante}\\
 
         \column{.49\textwidth}
-        Robôs SCARA ou Selective Compliance Assembly Robot Arm são robôs do tipo
+        \Large
+        São robôs manipuladores que possuem:
+        \begin{itemize}
+            \item Alta velocidade
+            \item Alta precisão
+            \item 4 graus de liberdade
+        \end{itemize}
         % A lei de Zipf pontua a frequência com que certas palavras aparecem nos textos científicos de maneira a definir sua representatividade neste contexto.\\
     \end{columns}
 
+
+    % \begin{frame}[t]{Graus de liberdade}
+        
+    % \end{frame}
     
     % \transdissolve[duration=0.5] % ???
     % A complexidade do conhecimento nas inovações tem aumentado ano após ano. A necessidade do ser humano em alcançar patamares cada vez mais eficientes em nosso dia a dia, faz com que tenhamos cada vez mais uma capacidade de otimização na busca por conhecimento.
@@ -69,15 +81,50 @@
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
-%-
+\begin{frame}[c]{Aplicações}
+    % \begin{figure}
+    %     \includegraphics[width=5cm, height=4cm]{scara.png}
+    %     %\caption{.}
+    % \end{figure}
+
+    \begin{columns}
+        % \column{.01\textwidth}
+        \column{.01\textwidth}
+        \column{.49\textwidth}
+        \begin{figure}
+            \includegraphics[trim = 0 0 0 0, clip, height=.9\textwidth]{FEA_Speed_assembly-Scara_400x400.jpg}
+            %\caption{.}
+        \end{figure}    
+        % \includemovie{1cm}{1cm}{img07.gif}
+
+        \column{.49\textwidth}
+        \begin{figure}
+            \includegraphics[trim = {5cm 0 5cm 0}, clip, height=.9\textwidth]{2021-08-26-19.png}
+            %\caption{.}
+        \end{figure}   
+        \column{.01\textwidth}
+        % A lei de Zipf pontua a frequência com que certas palavras aparecem nos textos científicos de maneira a definir sua representatividade neste contexto.\\
+    \end{columns}
+%*----------- notes
+    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+\end{frame}
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}{Graus de Liberdade}
+    \begin{figure}
+        \includegraphics[trim = 160 0 0 0, clip, width=0.6\textwidth]{1232566667__Web.png}
+        %\caption{.}
+    \end{figure}     
+\end{frame}
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[c]{Modelo Matemático} 
     % \transdissolve[duration=0.5]
-    \begin{itemize}
-        \item Cinemática
-        \item Dinâmica
-    \end{itemize}
-    \url{https://www.youtube.com/watch?v=hRiyymrS48E&list=PLKq0jl8tcUXeg1HV8OZR2rtRgxeWTJrqo&index=5}
+
+    \begin{center}
+        \vspace*{1.5cm}
+        \textbf{\Huge{Cinemática x Dinâmica}}
+    \end{center}
+        
+    %*----------- notes
     % \begin{center}
     %     \Wider{%
     %     \begin{shaded}
@@ -96,15 +143,57 @@
 %-
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[c]{Cinemática Direta} 
-    \framesubtitle{Notação D-H}
-    Objetivo: Encontrar pose do end effector a partir dos ângulos e deslocamentos angulares das juntas. \\
-    Pela notação D-H é possível descrever uma junta com 4 parâmetros.\\
+    \framesubtitle{Notação Denavit-Hartenberg}
+    \large
+    
+    \begin{figure}
+        \includegraphics[trim = 0 0 0 0, clip, height=0.4\textwidth]{Classic-DHparameters.png}
+    \end{figure}
     % \centering
     % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
 %*----------- notes
-    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+    \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
 \end{frame}
-%-
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Cinemática Direta} 
+    \framesubtitle{Notação Denavit-Hartenberg}
+    \large
+    
+    \begin{figure}
+        \includegraphics[trim = 0 0 0 0, clip, height=0.4\textwidth]{Screenshot from 2021-11-01 18-11-43.png}
+    \end{figure}
+    % \centering
+    % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
+%*----------- notes
+    \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
+\end{frame}
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Notação Denavit-Hartenberg} 
+    % \framesubtitle{Notação Denavit-Hartenberg}
+    \large
+    
+    \begin{figure}
+        \includegraphics[trim = 0 0 0 0, clip, height=0.35\textwidth]{Screenshot from 2021-11-01 18-11-43.png}
+        \includegraphics[trim = 0 0 0 0, clip, width=.9\textwidth]{Screenshot from 2021-11-01 18-12-13.png}
+    \end{figure}
+    % \centering
+    % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
+%*----------- notes
+    \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
+\end{frame}
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Cinemática Direta} 
+    \framesubtitle{Notação Denavit-Hartenberg}
+    \large
+    
+    \begin{figure}
+        \includegraphics[trim = 0 0 0 0, clip, height=0.4\textwidth]{Classic-DHparameters.png}
+    \end{figure}
+    % \centering
+    % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
+%*----------- notes
+    \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
+\end{frame}
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[c]{Cinemática Inversa} 
     % \framesubtitle{Pouco tempo para muito resultado}

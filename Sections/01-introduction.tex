@@ -15,11 +15,6 @@
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[c]{Robôs SCARA}
     \framesubtitle{Selective Compliance Articulated Robot Arm} 
-    % \begin{figure}
-    %     \includegraphics[width=5cm, height=4cm]{scara.png}
-    %     %\caption{.}
-    % \end{figure}
-
     \begin{columns}
         % \column{.01\textwidth}
         \column{.01\textwidth}
@@ -29,12 +24,6 @@
             \includegraphics[trim = 0 0 0 0, clip, width=0.5\textwidth]{scara.png}
             %\caption{.}
         \end{figure}
-
-        % \centering
-        % $f(n) = \frac{K}{n}$\\
-        % $f(n)$ \scriptsize{é a frequência de ocorrência de uma palavra}\\
-        % $n$ \scriptsize{é a ordem de frequência}
-        % $K$ \scriptsize{é a constante}\\
 
         \column{.49\textwidth}
         \Large
@@ -46,38 +35,7 @@
         \end{itemize}
         % A lei de Zipf pontua a frequência com que certas palavras aparecem nos textos científicos de maneira a definir sua representatividade neste contexto.\\
     \end{columns}
-
-
-    % \begin{frame}[t]{Graus de liberdade}
-        
-    % \end{frame}
-    
-    % \transdissolve[duration=0.5] % ???
-    % A complexidade do conhecimento nas inovações tem aumentado ano após ano. A necessidade do ser humano em alcançar patamares cada vez mais eficientes em nosso dia a dia, faz com que tenhamos cada vez mais uma capacidade de otimização na busca por conhecimento.
-
-    % \centering
-    % \vspace*{0.1cm}
-    % \Large{O tempo é vital.}
-
-    % \roundpic[xshift=0cm,yshift=0cm]{4cm}{7cm}{time}
-    %\newline
-
-        % \begin{columns}[t]
-        %     \column{.05\linewidth}
-        %     \column{.4\linewidth}
-        %         \huge{O tempo é vital.}
-        %     \column{.6\linewidth}
-        %     \begin{center}
-        %     %\centerline{
-        %         \begin{figure}
-        %             %\includegraphics[width=1\textwidth]{pista}
-        %             %\caption{Pista de corrida \cite{agostini2007}}
-        %             \roundpic[xshift=0cm,yshift=0cm]{4cm}{7cm}{time}
-        %             %\caption{Pista de corrida \cite{agostini2007}}
-        %         \end{figure}
-        %     %}
-        %     \end{center}
-        % \end{columns}
+   
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
@@ -140,7 +98,23 @@
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
-%-
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Cinemática Direta} 
+    \framesubtitle{Notação Denavit-Hartenberg}
+    Tem como objetivo obter o conjunto de equações que descreve a cinemática direta de um robô. \\
+    Cada junta do robô é descrita através de 4 parâmetros:
+    \begin{itemize}
+        \item $\theta$ - Ângulo de rotação da junta
+        \item d - Deslocamento da junta
+        \item a - Comprimento do elo
+        \item $\alpha$ - Ângulo de torção da junta
+        
+    \end{itemize}
+    % \centering
+    % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
+%*----------- notes
+    \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
+\end{frame}
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[c]{Cinemática Direta} 
     \framesubtitle{Notação Denavit-Hartenberg}
@@ -182,14 +156,21 @@
     \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
 \end{frame}
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{Cinemática Direta} 
-    \framesubtitle{Notação Denavit-Hartenberg}
-    \large
+\begin{frame}[c]{Notação Denavit-Hartenberg} 
+    \framesubtitle{Matriz de Transformação Homogênea}
+    \large{
+    \begin{itemize}
+        \item Matriz de transformação da junta (i-1) e i:\\
+        \vspace{0.3cm}
+        $T_{i}^{i-1}=Rot(z,\theta_{i})\cdot Trans(z,d_{i})\cdot Trans(x,a_{i})\cdot Rot(x,\alpha_{i})$\\
+    \end{itemize}
     
-    \begin{figure}
-        \includegraphics[trim = 0 0 0 0, clip, height=0.4\textwidth]{Classic-DHparameters.png}
-    \end{figure}
-    % \centering
+    \begin{itemize}
+        \item Matriz de transformação homogênea:\\
+        \vspace{0.3cm}
+        $T_{n}^{0}=T_{1}^{0}\cdot T_{2}^{1} \cdot T_{3}^{2} \cdots T_{n}^{n-1}$
+    \end{itemize}
+    }
     % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
 %*----------- notes
     \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}

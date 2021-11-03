@@ -21,66 +21,95 @@
         \column{.5\textwidth}
 
         \begin{figure}
-            \includegraphics[trim = 0 0 0 0, clip, width=0.5\textwidth]{scara.png}
+            \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{scara.png}
             %\caption{.}
         \end{figure}
 
         \column{.49\textwidth}
         \Large
-        São robôs manipuladores que possuem:
+        % São robôs manipuladores que possuem:
         \begin{itemize}
             \item Alta velocidade
             \item Alta precisão
+            \item Melhor repetibilidade entre manipuladores
             \item 4 graus de liberdade
         \end{itemize}
-        % A lei de Zipf pontua a frequência com que certas palavras aparecem nos textos científicos de maneira a definir sua representatividade neste contexto.\\
+
     \end{columns}
    
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
 \begin{frame}[c]{Aplicações}
-    % \begin{figure}
-    %     \includegraphics[width=5cm, height=4cm]{scara.png}
-    %     %\caption{.}
-    % \end{figure}
 
     \begin{columns}
         % \column{.01\textwidth}
         \column{.01\textwidth}
         \column{.49\textwidth}
         \begin{figure}
-            \includegraphics[trim = 0 0 0 0, clip, height=.9\textwidth]{FEA_Speed_assembly-Scara_400x400.jpg}
+            \includegraphics[trim = 0 0 0 0, clip, height=.88\textwidth]{FEA_Speed_assembly-Scara_400x400.jpg}
             %\caption{.}
         \end{figure}    
         % \includemovie{1cm}{1cm}{img07.gif}
 
         \column{.49\textwidth}
         \begin{figure}
-            \includegraphics[trim = {5cm 0 5cm 0}, clip, height=.9\textwidth]{2021-08-26-19.png}
+            % \includegraphics[trim = {5cm 0 5cm 0}, clip, height=.9\textwidth]{2021-08-26-19.png}
+            \includegraphics[trim = {0cm 0 0cm 0}, clip, height=.88\textwidth]{aplica2.jpg}
             %\caption{.}
         \end{figure}   
         \column{.01\textwidth}
-        % A lei de Zipf pontua a frequência com que certas palavras aparecem nos textos científicos de maneira a definir sua representatividade neste contexto.\\
+    
     \end{columns}
+    
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}{Graus de Liberdade}
-    \begin{figure}
-        \includegraphics[trim = 160 0 0 0, clip, width=0.6\textwidth]{1232566667__Web.png}
-        %\caption{.}
-    \end{figure}     
+\begin{frame}[c]{A Importância das Simulações} 
+    % \framesubtitle{Notação Denavit-Hartenberg}
+    \begin{columns}
+        \column{.01\textwidth}
+        \column{.69\textwidth}
+        As simulações possuem as seguintes vantagens:
+        \begin{itemize}
+            \item Fáceis de montar
+            \item Baixo custo
+            \item Resultados rápido
+        \end{itemize}
+        Poranto podem ser utilizadas para:
+        \begin{itemize}
+        \item Prever o comportamento do robô
+        \item Programar off-line
+        \item Avaliar layout
+        \item Fazer estudos de viabilidade
+        \item Otimizar o planejamento de trajetória
+        \end{itemize}
+        \column{.3\textwidth}
+        \begin{figure}
+            \includegraphics[trim = {0cm 0 0cm 0}, clip, height=1.5\textwidth]{scara2.png}
+        \end{figure}   
+    
+    \end{columns}
+    
+%*----------- notes
+    \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
 \end{frame}
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{Modelo Matemático} 
+% \begin{frame}{Graus de Liberdade}
+%     \begin{figure}
+%         \includegraphics[trim = 160 0 0 0, clip, width=0.6\textwidth]{1232566667__Web.png}
+%         %\caption{.}
+%     \end{figure}     
+% \end{frame}
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Cinemática Direta x Cinemática Inversa} 
     % \transdissolve[duration=0.5]
 
-    \begin{center}
-        \vspace*{1.5cm}
-        \textbf{\Huge{Cinemática x Dinâmica}}
-    \end{center}
+    \begin{figure}
+        \includegraphics[trim = 0 0 0 0, clip, height=.38\textwidth]{cinematica.png}
+        %\caption{.}
+    \end{figure}
         
     %*----------- notes
     % \begin{center}
@@ -110,8 +139,7 @@
         \item $\alpha$ - Ângulo de torção da junta
         
     \end{itemize}
-    % \centering
-    % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
+
 %*----------- notes
     \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
 \end{frame}
@@ -123,21 +151,7 @@
     \begin{figure}
         \includegraphics[trim = 0 0 0 0, clip, height=0.4\textwidth]{Classic-DHparameters.png}
     \end{figure}
-    % \centering
-    % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
-%*----------- notes
-    \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
-\end{frame}
-%*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{Cinemática Direta} 
-    \framesubtitle{Notação Denavit-Hartenberg}
-    \large
-    
-    \begin{figure}
-        \includegraphics[trim = 0 0 0 0, clip, height=0.4\textwidth]{Screenshot from 2021-11-01 18-11-43.png}
-    \end{figure}
-    % \centering
-    % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
+
 %*----------- notes
     \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
 \end{frame}
@@ -147,11 +161,21 @@
     \large
     
     \begin{figure}
-        \includegraphics[trim = 0 0 0 0, clip, height=0.35\textwidth]{Screenshot from 2021-11-01 18-11-43.png}
+        \includegraphics[trim = 0 1cm 0 0, clip, height=0.48\textwidth]{dhnota.png}
+    \end{figure}
+
+%*----------- notes
+    \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
+\end{frame}
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Notação Denavit-Hartenberg} 
+    % \framesubtitle{Notação Denavit-Hartenberg}
+    \large
+    
+    \begin{figure}
+        \includegraphics[trim = 0 0 0 0, clip, height=0.35\textwidth]{dhnota.png}
         \includegraphics[trim = 0 0 0 0, clip, width=.9\textwidth]{Screenshot from 2021-11-01 18-12-13.png}
     \end{figure}
-    % \centering
-    % \includegraphics[clip, trim = 0 0 0 0,  width=.83\textwidth]{databases.jpg}
 %*----------- notes
     \note[item]{Tem como objetivo pose do end effector a partir dos deslocamentos angulares e lineares das juntas. Pela notação D-H é possível descrever uma junta com 4 parâmetros.}
 \end{frame}
@@ -177,60 +201,142 @@
 \end{frame}
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[c]{Cinemática Inversa} 
+    \large
     % \framesubtitle{Pouco tempo para muito resultado}
     % \transdissolve[duration=0.5]
-    Objetivo: Encontrar ângulos e deslocamento angulares das juntas a partir da pose do end effector.
-    % \centering
-    % \includegraphics[clip, trim = 0 0 0 0,  width=1\textwidth]{googleacademico2.png}
+    A cinemática inversa tem como objetivo encontrar deslocamentos angulares e lineares das juntas a partir da pose do end effector.\\% Normalmente para cada pose existem mais de uma solução.\\
+    A matriz de transformação homemogênea é igual ao produto das matrizes de transformação de uma junta para outra:\\
+    \vspace{.15cm}
+
+    \begin{center}
+        $T_{4}^{0}=T_{1}^{0}\cdot T_{2}^{1} \cdot T_{3}^{2} \cdot T_{4}^{3}$\\
+    \end{center}
+
+    \vspace{.15cm}
+    Logo, solucionando para a junta 4, por exemplo:\\
+    \vspace{.2cm}
+    \begin{center}
+        $T_{4}^{3}=(T_{3}^{2})^{-1} \cdot (T_{2}^{1})^{-1} \cdot (T_{1}^{0})^{-1} \cdot T_{4}^{0}$    
+    \end{center}    
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
-%-
-%*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{Como vocês realizam as buscas por artigos?} 
-    \framesubtitle{Pouco tempo para muito resultado}
-    \transdissolve[duration=0.5]
-   
-    \centering
-    \includegraphics[clip, trim = 0 0 0 0,  width=.75\textwidth]{scopus.png}
-%*----------- notes
-    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
-\end{frame}
-%-
-%*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{Modelo matemático} 
-    \framesubtitle{Pouco tempo para muito resultado}
-    \transdissolve[duration=0.5]
-   
-    \centering
-    \includegraphics[clip, trim = 0 0 0 0,  width=1\textwidth]{ieee.png}
-%*----------- notes
-    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
-\end{frame}
-%-
-%*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[t]{Tempo e precisão}
-    \transboxout[duration=0.5]
-    %\framesubtitle{Darwin-OP}
-    Uma das vertentes da tecnologia é a capacidade de tornar os processos mais rápidos e precisos, suportando a vida humana no planeta.
-
-    \vspace*{0.2cm}
-    Alguns fatores impulsionadores
-		\begin{itemize}
-			\item Competitividade
-			\item Prazo de entrega
-			\item Concluir um trabalho 
-		\end{itemize}
-
-    \vspace*{0.2cm}
-    \includegraphics[clip, trim = 0 420 0 80, width=1\textwidth]{time-and-precision.jpeg}
-
+ %*----------- SLIDE -------------------------------------------------------------
+ \begin{frame}
     \begin{columns}
-        \column{.1\textwidth}
-        \column{.5\textwidth}
-        \column{.4\textwidth}
+        %\column{.01\textwidth}
+        \column{0.4\textwidth}
+        ~\hfill
+            \begin{beamercolorbox}[sep=8em, colsep*=18pt, wd=\textwidth,ht=\paperheight]{title page header}
+                \begin{center}
+                    \textbf{\huge{DINÂMICA}}\par
+                \end{center}
+            \end{beamercolorbox}%
+            
+        \column{.05\textwidth} 
+        \column{.6\textwidth}
+        \Large
+        Para o estudo da dinâmica do robô é necessário modelar:
+        \vspace{.4cm}
+        \begin{itemize}
+            \item Atuadores
+            \item Transmissões
+            \item Juntas
+        \end{itemize}
     \end{columns}
+  
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+ \end{frame}
+ %*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Resultados} 
+    \framesubtitle{$\theta_{1}=1.6493$ rad e $\theta_{2}=1.475-2.6178$ rad}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{center}
+            \Large \textbf{Matlab}\\     
+        \end{center}
+        \begin{figure}
+            \includegraphics[trim = 0 0 0 0, clip, height=.68\textwidth]{m_1.png}
+        \end{figure}
+        \column{0.49\textwidth}
+        \begin{center}
+            \Large \textbf{SD Software}\\    
+        \end{center}
+        \begin{figure}
+            \includegraphics[trim = 0 0 0 0, clip, height=.68\textwidth]{sd_1.png}
+        \end{figure}
+              
+    \end{columns}
 \end{frame}
-%-
+ %*----------- SLIDE -------------------------------------------------------------
+ \begin{frame}[c]{Resultados} 
+    \framesubtitle{$\theta_{1}=3.0142-0.794125$ rad e $\theta_{2}=2.4495696$ rad}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{center}
+            \Large \textbf{Matlab}\\    
+        \end{center}
+        \begin{figure}
+            \includegraphics[trim = 0 0 0 0, clip, height=.68\textwidth]{m_2.png}
+        \end{figure}
+        \column{0.49\textwidth}
+        \begin{center}
+            \Large \textbf{SD Software}\\   
+        \end{center}
+        \begin{figure}
+            \includegraphics[trim = 0 0 0 0, clip, height=.68\textwidth]{sd_2.png}
+        \end{figure}
+              
+    \end{columns}
+\end{frame}
+ %*----------- SLIDE -------------------------------------------------------------
+ \begin{frame}[c]{Resultados} 
+    \framesubtitle{$\theta_{1}=0.232-2.4695$ rad e $\theta_{2}=1.3521- 2.0944$ rad}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{center}
+            \Large \textbf{Matlab}\\    
+        \end{center}
+        \begin{figure}
+            \includegraphics[trim = 0 0 0 0, clip, height=.68\textwidth]{m_3.png}
+        \end{figure}
+        \column{0.49\textwidth}
+        \begin{center}
+            \Large \textbf{SD Software}\\    
+        \end{center}
+        \begin{figure}
+            \includegraphics[trim = 0 0 0 0, clip, height=.68\textwidth]{sd_3.png}
+        \end{figure}
+              
+    \end{columns}
+\end{frame}
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[c]{Conclusão} 
+\Large
+\begin{itemize}
+    \item Foi desenvolvido um completo modelo matemático
+    \item As equações de cinemática direta e inversa foram obtidas através da notação de Danevit-Hartenberg
+    \item Foram feitas simulações em Matlab e Solid Dynamics Software
+    \item Os resultados de ambos softwares foram concordantes
+\end{itemize}
+\end{frame}
+
+% \begin{frame}[c]{teste}
+%     \begin{center}
+%         \Wider{%
+%         \begin{shaded}
+%         \begin{center}
+%             \vspace*{0.5cm}
+%             \resizebox{!}{5cm}{%
+%             \begin{figure}
+%                 \includegraphics[trim = 0 0 0 0, clip, height=1\textwidth]{sd_3.png}
+%             \end{figure}    
+%             % \textcolor{cyan}{G}\textcolor{red}{o}\textcolor{orange}{o}\textcolor{cyan}{g}\textcolor{teal}{l}\textcolor{red}{e}?
+%             }%
+%         \end{center}
+%         \end{shaded}
+%         }%
+%     \end{center}
+% \end{frame}[c]{teste}
+

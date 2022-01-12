@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.1)  3 NOV 2021 01:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.10)  3 NOV 2021 09:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/seixas/Documents/beamer_2/presentation.tex
-(/home/seixas/Documents/beamer_2/presentation.tex
+**/home/senai/Documentos/beamer_2/presentation.tex
+(/home/senai/Documentos/beamer_2/presentation.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2019/09/29 v3.57 A class for typesetting presentations
@@ -515,7 +515,7 @@ Package: amsthm 2017/10/31 v2.20.4
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen277
 \beamer@dimb=\dimen278
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/home/seixas/Documents/beamer_2/beamerthememhar-vell.sty (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/home/senai/Documentos/beamer_2/beamerthememhar-vell.sty (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks45
 \inpenc@posthook=\toks46
@@ -730,7 +730,7 @@ Package: listings 2019/09/10 1.8c (Carsten Heinz)
 \ULC@box=\box89
 Package: ulem 2019/11/18
 \ULdepth=\dimen310
-) (/home/seixas/Documents/beamer_2/tdclock.sty
+) (/home/senai/Documentos/beamer_2/tdclock.sty
 Package: tdclock 2014/02/21 v2.5 clock accessory
  (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -1048,7 +1048,7 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip165
 \L@UnitsRaiseTextstyle=\skip166
 \L@UnitsRaiseScriptstyle=\skip167
-)) (/home/seixas/Documents/beamer_2/presentation.aux)
+)) (/home/senai/Documentos/beamer_2/presentation.aux)
 \openout1 = `presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -1135,7 +1135,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 94.
 LaTeX Info: Redefining \pageref on input line 94.
 LaTeX Info: Redefining \nameref on input line 94.
- (/home/seixas/Documents/beamer_2/presentation.out) (/home/seixas/Documents/beamer_2/presentation.out)
+ (/home/senai/Documentos/beamer_2/presentation.out) (/home/senai/Documentos/beamer_2/presentation.out)
 \@outlinefile=\write8
 \openout8 = `presentation.out'.
 
@@ -1202,7 +1202,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count385
- (/home/seixas/Documents/beamer_2/presentation.nav)
+ (/home/senai/Documentos/beamer_2/presentation.nav)
 <Template/logosenaicimatecnegativo.png, id=41, 632.1216pt x 138.7584pt>
 File: Template/logosenaicimatecnegativo.png Graphic file (type png)
 <use Template/logosenaicimatecnegativo.png>
@@ -1241,7 +1241,7 @@ LaTeX Font Warning: Font shape `OML/cmtt/m/n' undefined
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/seixas/Documents/beamer_2/Template/rosa-logo.png> </home/seixas/Documents/beamer_2/Template/logosenaicimatec2020.png>] (/home/seixas/Documents/beamer_2/Sections/01-introduction.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/senai/Documentos/beamer_2/Template/rosa-logo.png> </home/senai/Documentos/beamer_2/Template/logosenaicimatec2020.png>] (/home/senai/Documentos/beamer_2/Sections/01-introduction.tex
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 14.
@@ -1252,7 +1252,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
 [2
 
- </home/seixas/Documents/beamer_2/Template/logosenaicimatecnegativo.png>]
+ </home/senai/Documentos/beamer_2/Template/logosenaicimatecnegativo.png>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1293,7 +1293,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
  [3
 
- </home/seixas/Documents/beamer_2/Media/pictures/scara.png> </home/seixas/Documents/beamer_2/Template/bullet-blue.png>]
+ </home/senai/Documentos/beamer_2/Media/pictures/scara.png> </home/senai/Documentos/beamer_2/Template/bullet-blue.png>]
 <Media/pictures/FEA_Speed_assembly-Scara_400x400.jpg, id=103, 401.5pt x 401.5pt>
 File: Media/pictures/FEA_Speed_assembly-Scara_400x400.jpg Graphic file (type jpg)
 <use Media/pictures/FEA_Speed_assembly-Scara_400x400.jpg>
@@ -1310,7 +1310,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
  [4
 
- </home/seixas/Documents/beamer_2/Media/pictures/FEA_Speed_assembly-Scara_400x400.jpg> </home/seixas/Documents/beamer_2/Media/pictures/aplica2.jpg>]
+ </home/senai/Documentos/beamer_2/Media/pictures/FEA_Speed_assembly-Scara_400x400.jpg> </home/senai/Documentos/beamer_2/Media/pictures/aplica2.jpg>]
 File: Template/bullet-blue.png Graphic file (type png)
 <use Template/bullet-blue.png>
 Package pdftex.def Info: Template/bullet-blue.png  used on input line 97.
@@ -1354,11 +1354,11 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
  [5
 
- </home/seixas/Documents/beamer_2/Media/pictures/scara2.png>]
-<Media/pictures/cinematica.png, id=127, 1115.16624pt x 469.755pt>
-File: Media/pictures/cinematica.png Graphic file (type png)
-<use Media/pictures/cinematica.png>
-Package pdftex.def Info: Media/pictures/cinematica.png  used on input line 129.
+ </home/senai/Documentos/beamer_2/Media/pictures/scara2.png>]
+<Media/pictures/cinematica2.png, id=127, 1115.16624pt x 469.755pt>
+File: Media/pictures/cinematica2.png Graphic file (type png)
+<use Media/pictures/cinematica2.png>
+Package pdftex.def Info: Media/pictures/cinematica2.png  used on input line 129.
 (pdftex.def)             Requested size: 361.38676pt x 152.23642pt.
 File: Template/logosenaicimatecnegativo.png Graphic file (type png)
 <use Template/logosenaicimatecnegativo.png>
@@ -1366,7 +1366,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
  [6
 
- </home/seixas/Documents/beamer_2/Media/pictures/cinematica.png>]
+ </home/senai/Documentos/beamer_2/Media/pictures/cinematica2.png>]
 File: Template/bullet-blue.png Graphic file (type png)
 <use Template/bullet-blue.png>
 Package pdftex.def Info: Template/bullet-blue.png  used on input line 145.
@@ -1401,7 +1401,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
  [8
 
- </home/seixas/Documents/beamer_2/Media/pictures/Classic-DHparameters.png>]
+ </home/senai/Documentos/beamer_2/Media/pictures/Classic-DHparameters.png>]
 <Media/pictures/dhnota.png, id=158, 841.1425pt x 589.20125pt>
 File: Media/pictures/dhnota.png Graphic file (type png)
 <use Media/pictures/dhnota.png>
@@ -1417,7 +1417,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
 [9
 
- </home/seixas/Documents/beamer_2/Media/pictures/dhnota.png>]
+ </home/senai/Documentos/beamer_2/Media/pictures/dhnota.png>]
 File: Media/pictures/dhnota.png Graphic file (type png)
 <use Media/pictures/dhnota.png>
 Package pdftex.def Info: Media/pictures/dhnota.png  used on input line 181.
@@ -1437,7 +1437,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
 [10
 
- </home/seixas/Documents/beamer_2/Media/pictures/Screenshot from 2021-11-01 18-12-13.png>]
+ </home/senai/Documentos/beamer_2/Media/pictures/Screenshot from 2021-11-01 18-12-13.png>]
 File: Template/bullet-blue.png Graphic file (type png)
 <use Template/bullet-blue.png>
 Package pdftex.def Info: Template/bullet-blue.png  used on input line 201.
@@ -1513,7 +1513,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
 [14
 
- </home/seixas/Documents/beamer_2/Media/pictures/m_1.png> </home/seixas/Documents/beamer_2/Media/pictures/sd_1.png>]
+ </home/senai/Documentos/beamer_2/Media/pictures/m_1.png> </home/senai/Documentos/beamer_2/Media/pictures/sd_1.png>]
 <Media/pictures/m_2.png, id=225, 304.13625pt x 246.9225pt>
 File: Media/pictures/m_2.png Graphic file (type png)
 <use Media/pictures/m_2.png>
@@ -1534,7 +1534,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
 [15
 
- </home/seixas/Documents/beamer_2/Media/pictures/m_2.png> </home/seixas/Documents/beamer_2/Media/pictures/sd_2.png>]
+ </home/senai/Documentos/beamer_2/Media/pictures/m_2.png> </home/senai/Documentos/beamer_2/Media/pictures/sd_2.png>]
 <Media/pictures/m_3.png, id=240, 296.10625pt x 245.91875pt>
 File: Media/pictures/m_3.png Graphic file (type png)
 <use Media/pictures/m_3.png>
@@ -1555,7 +1555,7 @@ Package pdftex.def Info: Template/logosenaicimatecnegativo.png  used on input li
 (pdftex.def)             Requested size: 42.51686pt x 9.3333pt.
 [16
 
- </home/seixas/Documents/beamer_2/Media/pictures/m_3.png> </home/seixas/Documents/beamer_2/Media/pictures/sd_3.png>]
+ </home/senai/Documentos/beamer_2/Media/pictures/m_3.png> </home/senai/Documentos/beamer_2/Media/pictures/sd_3.png>]
 File: Template/bullet-blue.png Graphic file (type png)
 <use Template/bullet-blue.png>
 Package pdftex.def Info: Template/bullet-blue.png  used on input line 323.
@@ -1586,7 +1586,7 @@ Package pdftex.def Info: Template/questionmark8.png  used on input line 154.
 (pdftex.def)             Requested size: 154.17719pt x 154.17719pt.
  [18
 
- </home/seixas/Documents/beamer_2/Template/questionmark8.png>]
+ </home/senai/Documentos/beamer_2/Template/questionmark8.png>]
 \tf@nav=\write9
 \openout9 = `presentation.nav'.
 
@@ -1598,7 +1598,7 @@ Package pdftex.def Info: Template/questionmark8.png  used on input line 154.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
- (/home/seixas/Documents/beamer_2/presentation.aux)
+ (/home/senai/Documentos/beamer_2/presentation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
@@ -1614,14 +1614,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  31375 strings out of 481239
- 652398 string characters out of 5920377
- 966336 words of memory out of 5000000
+ 652404 string characters out of 5920377
+ 966335 words of memory out of 5000000
  45823 multiletter control sequences out of 15000+600000
  548249 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,17n,88p,1019b,1134s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on /home/seixas/Documents/beamer_2/presentation.pdf (18 pages, 2355145 bytes).
+Output written on /home/senai/Documentos/beamer_2/presentation.pdf (18 pages, 2403432 bytes).
 PDF statistics:
  330 PDF objects out of 1000 (max. 8388607)
  211 compressed objects within 3 object streams
